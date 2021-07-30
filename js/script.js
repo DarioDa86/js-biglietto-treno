@@ -26,22 +26,18 @@ console.log(sconto40);
 if (etaPasseggero <= 17) {
     var totale =  totaleParziale - sconto20;
     alert(totale.toFixed(2) + " €");
-    document.getElementById('totale').innerHTML += totale;
-
+    document.getElementById('totale').innerHTML += totale.toFixed(2) + " €";
 }
 
 else if (etaPasseggero >= 65) {
     var totale =  totaleParziale - sconto40 ;
     alert(totale.toFixed(2) + " €");
-    document.getElementById('totale').innerHTML += totale;
-
-
+    document.getElementById('totale').innerHTML += totale.toFixed(2) + " €";
 }
 
-else {
+else { 
     alert(totaleParziale.toFixed(2) + " €");
-    document.getElementById('totale').innerHTML += totaleParziale;
-
+    document.getElementById('totale').innerHTML += totaleParziale.toFixed(2) + " €";
 }
 
 

@@ -7,7 +7,7 @@ body {
     background-color: #001632;
     margin: 100px auto;
     border-radius: 25px;
-    box-shadow: 0 0 0 10;
+    box-shadow: 8px 8px 10px #000;
 }
 
 /* .bianco {
